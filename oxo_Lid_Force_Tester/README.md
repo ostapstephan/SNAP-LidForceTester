@@ -1,4 +1,4 @@
-# OXO BRUSH TESTER
+# OXO SNAP LID TESTER
 
 ## V1
 
@@ -31,10 +31,9 @@ Setup:
         </tr>
         <tr>
             <td> Mode selection </td>
-            <td> <i> <font color="red">Measurement/Calibration</font> </td>
-            <td> This message indicates which mode the fixutre is <br> runnin in.
-            It can be measurement or calibration and its controlled by toggle switch.  
-            Calibration mode is for ease of setup. </td>
+            <td> <i> <font color="red">Local/Remote Mode</font> </td>
+            <td> This message indicates which mode the fixutre is <br> running in.
+            It can be in local or remote mode and its controlled by the toggle switch.</td>
         </tr>
         <tr>
             <td> Standby mode </td>
@@ -45,12 +44,10 @@ Setup:
             <td> Data capture (i.e. test mode) </td>
             <td> <i> <font color="red"> Ready <br> 0.0 <br> MAX: 11.05</font> </td>
             <td> This mode is activated for 15 seconds after button is pressed. <br>  If test is
-            not perfomed after 15 seconds, fixture will go inot standby mode until the button is pressed again. <br>
+            not perfomed after 15 seconds, fixture will go into standby mode until the button is pressed again. <br>
             If test is perfomed within 15 seconds, fixture will read data from load cell and when
             test is complete, maximum value obrained will be shown. <br>
             After button is pressed, a countdown will be shown at the bottom left corder</td>
         </tr>
 
     </table>
-4. Miscellenious notes: <br>
-To be completed.
